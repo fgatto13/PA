@@ -25,3 +25,11 @@ k_min = 3  # Finding the 3rd smallest
 k_max = 2  # Finding the 2nd largest
 print("3rd smallest:", QuickSelect(A, 0, len(A) - 1, k_min))
 print("2nd largest:", QuickSelect_kth_max(A, 0, len(A) - 1, k_max))
+
+A = [(1, 3), (1, 2), (3, 5), (2, 4)]
+
+def intervalScheduling(A):
+    sorted(A, key=A[2])
+    print(A)
+
+intervalScheduling(A)

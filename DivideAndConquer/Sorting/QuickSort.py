@@ -1,12 +1,8 @@
 import random
 
-def Swap(A, i, j):
-    A[i], A[j] = A[j], A[i]
-# this selects the pivot always in the middle (best if we know that the array is nearly sorted)
-
 def Partition(A, low, high) -> int:
     mid = (low + high) // 2
-    Swap(A, low, mid)  # Move the middle element to the low position
+    A[low], A[mid] = A[mid], A[low]  # Move the middle element to the low position
     pivot = A[low]
     i = low
     j = high
@@ -16,15 +12,15 @@ def Partition(A, low, high) -> int:
         while A[j] > pivot and j > low:
             j -= 1
         if i < j:
-            Swap(A, i, j)
-    Swap(A, low, j)
+            A[i], A[j] = A[j], A[i]
+    A[low], A[j] = A[j], A[low]
     return j
 
 # this selects the pivot in a random position in A, making it way harder to get a worst case scenario
 
 def Partition_random(A, low, high) -> int:
     rand_pivot = random.randint(low, high)
-    Swap(A, low, rand_pivot)  # Move the random element to the low position
+    A[low], A[rand_pivot] = A[rand_pivot], A[low]  # Move the random element to the low position
     pivot = A[low]
     i = low
     j = high
@@ -34,8 +30,8 @@ def Partition_random(A, low, high) -> int:
         while A[j] > pivot and j > low:
             j -= 1
         if i < j:
-            Swap(A, i, j)
-    Swap(A, low, j)
+            A[i], A[j] = A[j], A[i]
+    A[low], A[j] = A[j], A[low]
     return j
 
 def QuickSort(A, low, high):

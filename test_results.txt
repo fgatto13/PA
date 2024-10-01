@@ -1,0 +1,364 @@
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 220
+Actual Output: 220
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 50
+Objects (value, weight): []
+Expected Output: 0
+Actual Output: 0
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 15
+Objects (value, weight): [(30, 10)]
+Expected Output: 30
+Actual Output: 30
+------------------
+
+--- Test Case ---
+Knapsack Capacity (W): 0
+Objects (value, weight): [(60, 10), (100, 20), (120, 30)]
+Expected Output: 0
+Actual Output: 0
+------------------
